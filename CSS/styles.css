@@ -11,7 +11,9 @@ body{
 html{
     transition: all 300ms ease;
 }
-
+img{
+    overfllow-x:hidden;
+}
 nav,
 .nav-links{
     display: flex;
@@ -365,5 +367,6 @@ footer p {
   text-align: center;
 
 }
+
 
 
