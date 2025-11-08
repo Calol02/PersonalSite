@@ -3,7 +3,7 @@
     margin: 0;
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    overflow-x: clip margin 2rem;
+    
       
 }
 
@@ -298,6 +298,7 @@ padding: 3rem;
 .animation1 {
    animation-name: slide-in;
    animation-duration: 2s;
+   
   
    
 }
@@ -309,7 +310,10 @@ padding: 3rem;
 .animation3{
   animation-name: slide-in;
    animation-duration: 6s;
-  
+}
+
+.animation-overflow{
+  overflow-x: hidden;
 }
 @keyframes slide-in {
   from {
@@ -380,3 +384,4 @@ footer {
 footer p {
   text-align: center;
 }
+
