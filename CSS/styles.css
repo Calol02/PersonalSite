@@ -12,8 +12,9 @@ body{
   
 }
 html{
-    transition: all 300ms ease;
+    scroll-behavior: smooth; 
 }
+
 nav,
 .nav-links{
     display: flex;
@@ -35,7 +36,7 @@ nav{
 
 a{
     text-decoration: none;
-    color: rgb(130, 196, 235);
+    color: rgb(61, 163, 223);
 }
 
 a:hover {
@@ -215,7 +216,7 @@ section {
   align-items: center;
   gap: 2rem;
   margin: auto;
-  
+  background-color: #c1c8eb;
 }
 
 
@@ -335,6 +336,8 @@ padding: 3rem;
   justify-content: center;
   flex-direction: column;
   height: 70vh;
+  background-color: #c1c8eb;
+  margin: auto;
 }
 
 .contact-info-upper-container {
@@ -377,7 +380,4 @@ footer {
 footer p {
   text-align: center;
 }
-
-
-
 
