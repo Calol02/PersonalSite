@@ -246,6 +246,7 @@ section {
   border-radius: 2rem;
   background-color: white;
   font-size: 1rem;
+  cursor: pointer;
 }
 
 .btn:hover{
@@ -376,6 +377,7 @@ footer {
 footer p {
   text-align: center;
 }
+
 
 
 
