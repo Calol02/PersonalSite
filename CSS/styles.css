@@ -222,7 +222,7 @@ section {
 
 .image-container {
   padding:  1rem;
-  flex: 0.9;
+  flex: 0.8;
   background: white;
   border-radius: 2rem;
   border: rgb(53, 53, 53) 0.1rem solid;
@@ -384,4 +384,5 @@ footer {
 footer p {
   text-align: center;
 }
+
 
