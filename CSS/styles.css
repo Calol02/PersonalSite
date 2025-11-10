@@ -231,7 +231,8 @@ section {
   margin: 0;
   width: fit-content;
   height: 500px;
-  padding: 1.5rem 2rem;
+  padding: 1rem;
+ 
 }
 
 .project-text1{
@@ -260,7 +261,8 @@ section {
 }
 
 .bank {
-  border-radius: 4rem;
+  border-radius:1rem;
+
 }
 
 
