@@ -279,6 +279,7 @@ section {
   align-items: center;
   margin: auto;
   padding: 10rem 0;
+  gap: 4rem;
 }
 
 img{
@@ -326,5 +327,6 @@ img{
 }
  
     
+
 
 
