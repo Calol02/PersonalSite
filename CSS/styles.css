@@ -264,7 +264,7 @@ section {
 }
 
 
-/* Digital Art SECTION */
+/* Digital Art SECTION
 
 #digital-art {
   display: flex;
@@ -273,27 +273,6 @@ section {
   margin: auto;
   padding: 10rem 0;
   gap: 4rem;
-}
-
-#container__img{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  gap: 2rem;
-}
-
-img{
-   overflow: hidden;
-}
-
- .box{
-    display: flex;
-    width:300px;
-    height: fit-content;
-    padding-top: 1.5rem;
-    padding-bottom: 2rem;
-    object-fit: contain;
-   
 }
 
 .animation1 {
@@ -325,7 +304,28 @@ img{
     scale: 100% 1;
   }
 }
- 
+  */
+#container__img{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  gap: 2rem;
+}
+
+img{
+   overflow: hidden;
+}
+
+ .box{
+    display: flex;
+    width:300px;
+    height: fit-content;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    object-fit: contain;
+   
+}
+
 
     
 
@@ -339,6 +339,7 @@ img{
   flex-direction: column;
   height: 70vh;
   margin: auto;
+  background:#e6e8ec
 }
 
 .contact-info-upper-container {
@@ -382,6 +383,7 @@ footer {
 footer p {
   text-align: center;
 }
+
 
 
 
