@@ -216,8 +216,15 @@ section {
   margin: 0;
   background-color: #c1c8eb;
 }
-
-
+ .box{
+    display: flex;
+    width:300px;
+    height: fit-content;
+    padding-top: 1.5rem;
+    padding-bottom: 2rem;
+    object-fit: contain;
+   
+}
 
 .image-container {
   flex: 0.6;
@@ -316,6 +323,7 @@ footer {
 footer p {
   text-align: center;
 }
+
 
 
 
