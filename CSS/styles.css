@@ -338,7 +338,6 @@ img{
   justify-content: center;
   flex-direction: column;
   height: 70vh;
-  background-color: #c1c8eb;
   margin: auto;
 }
 
@@ -375,13 +374,15 @@ img{
 /* FOOTER SECTION */
 
 footer {
+  background-color: #c1c8eb;
   height: 26vh;
-  margin: 0 1rem;
+  margin: 0 ;
 }
 
 footer p {
   text-align: center;
 }
+
 
 
 
