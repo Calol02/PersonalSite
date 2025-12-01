@@ -30,9 +30,6 @@
     padding: 50px 0;
     height: 20vh;
   }
-  
-  #footer{
-    margin:0;
 
   .arrow {
     display: none;
@@ -55,10 +52,9 @@
   #contact,
   footer {
     height: 40vh;
-  }
-    #footer{
     margin:0;
-      
+  }
+   
   #profile {
     height: 83vh;
     margin-bottom: 0;
@@ -129,8 +125,6 @@
   margin: 0;
   padding: 1.5rem;
 }
-  #footer{
-    margin:0;
 
   .art-container{
     justify-content: center;
@@ -160,9 +154,6 @@
     padding: 50px 0;
     height: 20vh;
   }
-
-    #footer{
-    margin:0;
       
     .box{
     display: flex;
@@ -173,4 +164,5 @@
 }
 
 }
+
 
