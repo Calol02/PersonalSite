@@ -229,7 +229,7 @@ section {
   margin: 0;
   width: fit-content;
   height: 500px;
-  padding: 1rem;
+  padding: 0 1rem;
  
 }
 
@@ -265,11 +265,6 @@ section {
 
 
 
-
-
-
-
-
 /* CONTACT */
 
 #contact {
@@ -277,6 +272,7 @@ section {
   justify-content: center;
   flex-direction: column;
   height: 70vh;
+  background-color: #c1c8eb;
   margin: auto;
 }
 
@@ -313,7 +309,6 @@ section {
 /* FOOTER SECTION */
 
 footer {
-  background: #c1c8eb;
   height: 26vh;
   margin: 0 1rem;
 }
@@ -321,7 +316,6 @@ footer {
 footer p {
   text-align: center;
 }
-
 
 
 
