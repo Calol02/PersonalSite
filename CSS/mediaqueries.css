@@ -21,14 +21,16 @@
   #hamburger-nav {
     display: flex;
   }
-  #experience,
-  .experience-details-container {
-    margin-top: 2rem;
-  }
+  
   #profile,
   .section-container {
     display: block;
   }
+  #projects{
+    padding: 50px 0;
+    height: 20vh;
+  }
+
   .arrow {
     display: none;
   }
@@ -44,9 +46,7 @@
     height: 275px;
     margin: 0 auto 2rem;
   }
-  .about-containers {
-    margin-top: 0;
-  }
+
 }
 @media screen and (max-width: 600px) {
   #contact,
@@ -64,7 +64,18 @@
     height: fit-content;
     margin-bottom: 2rem;
   }
-  .about-containers,
+  
+  #projects{
+    padding: 50px 0;
+    height: 20vh;
+  }
+  
+.image-container {
+  flex: 0.8;
+  margin: 0;
+  padding: 1.5rem;
+}
+
   .contact-info-upper-container,
   .btn-container {
     flex-wrap: wrap;
@@ -76,9 +87,7 @@
   .nav-links li a {
     font-size: 1rem;
   }
-  .experience-sub-title {
-    font-size: 1.25rem;
-  }
+  
   .logo {
     font-size: 1.5rem;
   }
@@ -104,10 +113,18 @@
 }
 
 @media screen and (max-width: 1400px) {
-  #digital-art{
+
+  #projects{
+    padding: 50px 0;
     height: 20vh;
-    margin: auto;
   }
+.image-container {
+  flex: 0.8;
+  margin: 0;
+  padding: 1.5rem;
+}
+
+
 
   .art-container{
     justify-content: center;
@@ -127,15 +144,17 @@
 }
 
 @media screen and (max-width: 840px) {
-   #digital-art{
-    height: 20vh;
-    margin:1rem;
-  }
+ 
   .art-container{
     justify-content: center;
     align-items: center;
     
   }
+  #projects{
+    padding: 50px 0;
+    height: 20vh;
+  }
+
     .box{
     display: flex;
     flex-wrap: nowrap;
