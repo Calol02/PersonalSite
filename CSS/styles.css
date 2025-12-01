@@ -164,6 +164,7 @@ section {
   border-radius: 37rem;
  
 }
+
 .section__pic-container {
   display: flex;
   height: 400px;
@@ -224,6 +225,10 @@ section {
     padding-bottom: 2rem;
     object-fit: contain;
    
+}
+
+img{
+   overflow: hidden;
 }
 
 .image-container {
@@ -323,6 +328,7 @@ footer {
 footer p {
   text-align: center;
 }
+
 
 
 
